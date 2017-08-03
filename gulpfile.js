@@ -22,7 +22,10 @@ if(env==="dev") {
 	outputDir = "builds/prod/";
 }
 
-jsSources = ["components/js/script.js"];
+jsSources = [
+	"components/js/script.js",
+	"components/js/target_align.js"
+];
 htmlSources = ["index.html"];
 // jsonSources = [outputDir + "js/*json"];
 styleSources = ["components/css/style.css"];
