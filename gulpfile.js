@@ -26,7 +26,7 @@ jsSources = [
 	"components/js/script.js",
 	"components/js/target_align.js"
 ];
-htmlSources = ["index.html"];
+htmlSources = ["working.html"];
 // jsonSources = [outputDir + "js/*json"];
 styleSources = ["components/css/style.css"];
 
