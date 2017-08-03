@@ -27,6 +27,10 @@ body {
   background: rgba(127, 123, 130, .25);
 }
 
+main {
+  margin-top: 0em;
+}
+
 footer {
   clear:both;
   overflow: hidden;
@@ -55,6 +59,7 @@ nav a, footer a {
   text-decoration: none;
 }
 
+
 h1, h2, h3, h4 {
   font-family: "Roboto";
   color: rgba(191, 172, 181, 1);
@@ -63,6 +68,7 @@ h1, h2, h3, h4 {
 h1 {
   text-align: center;
   font-size: 1.8em;
+  margin-top: .3em;
   margin-bottom: 0em;
 }
 
@@ -149,7 +155,7 @@ p {
   height: auto;
   margin: 0 auto;
   overflow: hidden;
-  padding: 2em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
 }
 
 .heading-img {
@@ -157,10 +163,18 @@ p {
   height: auto;
   float: left;
   border-radius: 20%;
-  padding-top: 1.05em;
-  padding-bottom: 0em;
+  padding-top: .5em;
+  padding-bottom: .5em;
   }
 
+.anchor {
+    width: 100%;
+    height: 40px;    
+    display: block;
+    top: -40px;
+    background: url(../images/section_heading_3.jpg) no-repeat fixed;
+    background-size: cover;
+}
 
 /*images inside blocks of text*/
 /*.flow-left {
